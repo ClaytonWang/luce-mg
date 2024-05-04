@@ -6,14 +6,15 @@
 .country{
   display: grid;
   width: 100%;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto;
   grid-gap: 10px;
   justify-content: center;
   align-items: center;
   border:1px solid #ccc;
   cursor: pointer;
 }
+
 .country:hover{
   background-color: bisque;
 }
