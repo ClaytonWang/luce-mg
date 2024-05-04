@@ -1,0 +1,25 @@
+.countries{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+.country{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border:1px solid #ccc;
+  cursor: pointer;
+}
+.country:hover{
+  background-color: bisque;
+}
+
+.name{
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
