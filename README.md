@@ -1,9 +1,9 @@
 # Frontend Engineering Problem
 
 ## EVN
-Node: 18.16.1
-NPM: 9.5.1
-Yarn: 1.22.21
+* Node: 18.16.1
+* NPM: 9.5.1
+* Yarn: 1.22.21
 
 ##  How to Start
 ```bash
